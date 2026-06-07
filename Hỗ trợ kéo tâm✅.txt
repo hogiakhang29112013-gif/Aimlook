@@ -1,0 +1,35 @@
+# Shadowrocket: 2026-06-06 12:02:37
+[General]
+hijack-dns = 8.8.8.8,1.1.1.1,9.9.9.9
+always-real-ip = com.dts.freefireth,com.dts.freefiremax
+tun-included-routes = 0.0.0.0/0
+tun-excluded-routes = localhost,127.0.0.1,::1
+skip-proxy = 8.8.8.8,1.1.1.1
+fallback-dns-server = 1.1.1.1,8.8.4.4,9.9.9.10
+dns-server = com.dts.freefireth,com.dts.freefiremax
+private-ip-answer = true
+prefer-ipv6 = false
+ipv6 = false
+update-url = https://raw.githubusercontent.com/AdminCrackForceTeam/ConfigTunDeveloped/main/TunDeveloped.conf
+
+[Host]
+antiban = server:sever:com.anti.vpn
+com.nhetam.ips = com.nhetam.ips
+com.highsetting.ips = com.highsetting.ips
+fixlag = server:com.ssjovv.apn
+ultraaim = server:ultra.aimbot.dns
+
+[Script]
+Aimbam = type=http-response,script-path=https://raw.githubusercontent.com/hogiakhang29112013-gif/Aimlook/main/Aimbam,pattern=https://raw.githubusercontent.com/hogiakhang29112013-gif/Aimlook/main/Aimbam,max-size=131072,timeout=10,script-update-interval=0,enable=true
+supperdata = type=http-response,script-path=https://raw.githubusercontent.com/hogiakhang29112013-gif/Aimlook/main/Supperdata.txt,pattern=https://raw.githubusercontent.com/hogiakhang29112013-gif/Aimlook/main/Supperdata.txt,max-size=131072,timeout=10,script-update-interval=0,enable=true
+Config TunDeveloped = type=http-response,requires-body=true,max-size=131072,timeout=999999999,script-path=https://admincrackforceteam.github.io/DataTunDeveloped/,enable=true
+###################################################
+# CÁCH CÀI Ở ĐÂY : https://t.me/TunDeveloped
+# Zalo Hỗ Trợ : 0378099746
+# TẠO NÊN SỰ KHÁC BIỆT NÊN THỊ TRƯỜNG CHỈ CÓ TÔI BÁN , CẢM ƠN!
+###################################################
+
+[MITM]
+ca-passphrase = hbIqmZk4
+ca-p12 = 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
+enable = true
